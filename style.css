@@ -1,0 +1,95 @@
+/* fonts: 
+  font-family: 'Salsa', cursive;
+  font-family: 'Bungee Spice', sans-serif;
+*/
+
+
+body {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(139, 254, 158);
+}
+.container {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+
+  /* background-color: aqua; */
+}
+
+h1 {
+  font-family: 'Bungee Spice', sans-serif;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 0 2px black;
+}
+
+span {
+  font-family: 'Salsa', cursive;
+  font-size: 2.5rem;
+  display: block;
+}
+.gohanText {
+  width: 180px;
+  margin: auto;
+  margin-top: 0px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.options {
+  display: inline-block;
+  width: 40%;
+
+  /* background-color: antiquewhite; */
+}
+
+.optImg1 {
+  margin-right: 10px;
+}
+.optImg2 {
+  margin-left: 10px;
+}
+.optShow {
+  width: 65%;
+  border-radius: 50%;
+  margin: auto;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  background-color: rgb(255, 55, 55);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6%;
+  padding: 5px 15px 5px 15px;
+}
+
+@media (max-width: 522px) {
+  h1 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 428px) {
+  h1 {
+    font-size: 34px;
+  }
+}
